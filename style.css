@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: #1b1464;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  padding-top: 50px;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 0.1em;
+  font-family: "Fredoka", sans-serif;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 2em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chest-image {
+  width: 550px;
+  margin-bottom: 2em;
+}
+
+.start-button {
+  background-color: #00eeff;
+  color: #1b1464;
+  padding: 1em 3em;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #00bcd4;
+}
