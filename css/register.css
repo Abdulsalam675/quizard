@@ -95,7 +95,7 @@ input {
   background-color: rgba(245, 245, 245, 0.959);
 }
 
-button {
+.btn {
   padding: 16px;
   font-size: 1.1em;
   color: white;
@@ -103,9 +103,10 @@ button {
   border: 1px solid transparent;
   border-radius: 20px;
   background-color: #1b1464;
+  text-decoration: none;
   transition: background-color 0.3s;
 }
 
-button:hover {
+.btn:hover {
   background-color: #0d0555;
 }
